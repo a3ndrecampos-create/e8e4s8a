@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Placeholder: uma gota estilizada representando o ciclo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C54,20 32,48 32,66 C32,78.15 41.85,88 54,88 C66.15,88 76,78.15 76,66 C76,48 54,20 54,20 Z" />
+</vector>
