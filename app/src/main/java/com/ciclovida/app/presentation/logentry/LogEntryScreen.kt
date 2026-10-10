@@ -1,3 +1,5 @@
+@file:OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
+
 package com.ciclovida.app.presentation.logentry
 
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -20,7 +22,6 @@ import com.ciclovida.app.domain.model.SymptomType
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun LogEntryScreen(viewModel: LogEntryViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
